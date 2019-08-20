@@ -75,7 +75,7 @@ public class CustomerAccountService {
      * @return CustomerAccount
      * @throws BaseException
      */
-    @PUT
+    @POST
     @Path("/create")
     public CustomerAccount createAccount(CustomerAccount customerAccount) throws BaseException {
         final Long accountId = daoFactory.getCustomerAccountDAO().createCustomerAccount(customerAccount);
