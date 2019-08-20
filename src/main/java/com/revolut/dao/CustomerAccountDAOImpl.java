@@ -23,7 +23,7 @@ import java.util.List;
  * @Package com.revolut.dao
  * @Description: Customer Account Data Access Object Implementation Class
  */
-public class CustomerAccountDAOImpl implements CustomerAccountDao {
+public class CustomerAccountDAOImpl implements CustomerAccountDAO {
 
     private static Logger log = Logger.getLogger(CustomerAccountDAOImpl.class);
     private final static String SQL_GET_ACC_BY_ID = "SELECT * FROM CustomerAccount WHERE AccountId = ? ";

@@ -117,7 +117,7 @@ public class CustomerAccountService {
         BigDecimal delta = amount.negate();
         if (log.isDebugEnabled())
             log.debug("Withdraw service: delta change to account  " + delta + " Account ID = " +accountId);
-        daoFactory.getCustomerAccountDAO().updateCustomerAccountBalance(accountId, amount.setScale(4, RoundingMode.HALF_EVEN));
+        daoFactory.getCustomerAccountDAO().updateCustomerAccountBalance(accountId, delta.setScale(4, RoundingMode.HALF_EVEN));
         return daoFactory.getCustomerAccountDAO().getCustomerAccountById(accountId);
     }
 

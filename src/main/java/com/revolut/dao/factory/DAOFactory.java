@@ -1,6 +1,6 @@
 package com.revolut.dao.factory;
 
-import com.revolut.dao.CustomerAccountDao;
+import com.revolut.dao.CustomerAccountDAO;
 import com.revolut.dao.CustomerDAO;
 
 /**
@@ -16,7 +16,7 @@ public abstract class DAOFactory {
 
 	public abstract CustomerDAO getCustomerDAO();
 
-	public abstract CustomerAccountDao getCustomerAccountDAO();
+	public abstract CustomerAccountDAO getCustomerAccountDAO();
 
 	public abstract void populateTestData();
 

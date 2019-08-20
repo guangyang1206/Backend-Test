@@ -10,11 +10,11 @@ import java.util.List;
 /**
  * @author Guang_Yang
  * @version V1.0
- * @Title: CustomerAccountDao
+ * @Title: CustomerAccountDAO
  * @Package com.revolut.dao
  * @Description: Customer Account Data Access Object Interface
  */
-public interface CustomerAccountDao {
+public interface CustomerAccountDAO {
 
     List<CustomerAccount> getAllCustomerAccounts() throws BaseException;
     CustomerAccount getCustomerAccountById(Long CustomerAccountId) throws BaseException;

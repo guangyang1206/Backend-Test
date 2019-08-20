@@ -1,7 +1,7 @@
 package com.revolut.dao.factory;
 
+import com.revolut.dao.CustomerAccountDAO;
 import com.revolut.dao.CustomerAccountDAOImpl;
-import com.revolut.dao.CustomerAccountDao;
 import com.revolut.dao.CustomerDAO;
 import com.revolut.dao.CustomerDAOImpl;
 import com.revolut.util.CommonUtils;
@@ -46,7 +46,7 @@ public class H2DAOFactory extends DAOFactory {
 		return customerDAO;
 	}
 
-	public CustomerAccountDao getCustomerAccountDAO() {
+	public CustomerAccountDAO getCustomerAccountDAO() {
 		return customerAccountDAO;
 	}
 
