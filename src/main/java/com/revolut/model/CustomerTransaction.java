@@ -32,6 +32,13 @@ public class CustomerTransaction {
 	public CustomerTransaction() {
 	}
 
+	public CustomerTransaction(String currencyCode, BigDecimal amount, Long fromAccountId, Long toAccountId) {
+		this.currencyCode = currencyCode;
+		this.amount = amount;
+		this.fromAccountId = fromAccountId;
+		this.toAccountId = toAccountId;
+	}
+
 	public String getCurrencyCode() {
 		return currencyCode;
 	}

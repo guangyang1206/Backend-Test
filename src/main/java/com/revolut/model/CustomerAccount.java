@@ -36,6 +36,12 @@ public class CustomerAccount {
         this.currencyCode = currencyCode;
     }
 
+    public CustomerAccount(String customerName, BigDecimal balance, String currencyCode) {
+        this.customerName = customerName;
+        this.balance = balance;
+        this.currencyCode = currencyCode;
+    }
+
     public Long getAccountId() {
         return accountId;
     }

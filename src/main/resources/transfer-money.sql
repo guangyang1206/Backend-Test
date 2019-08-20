@@ -27,9 +27,9 @@ CREATE UNIQUE INDEX idx_acc on CustomerAccount(CustomerName, CurrencyCode);
 
 INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Allen',1000.0000,'CNY');
 INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Bob',2000.0000,'CNY');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Carl',3000.0000,'CNY');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('David',4000.0000,'CNY');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Ellen',5000.0000,'CNY');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Allen',1000.0000,'GBP');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Bob',2000.0000,'GBP');
-INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Carl',3000.0000,'USD');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Carl',3000.0000,'EUR');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('David',4000.0000,'EUR');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Ellen',5000.0000,'GBP');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Frank',5000.0000,'GBP');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Gary',2000.0000,'GBP');
+INSERT INTO CustomerAccount (CustomerName, Balance, CurrencyCode) VALUES ('Howard',3000.0000,'USD');
